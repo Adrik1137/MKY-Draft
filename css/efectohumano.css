@@ -1,0 +1,331 @@
+/*  Navbar */
+.navbar{
+	background-color: #fff;
+} 
+
+.navbar-brand img{
+	max-height: 35px;
+	padding-top: 4px;
+	margin-bottom: 4px;
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+/*		Home	*/
+
+#Home{
+	background: url("../images/home.jpg") center center;
+	background-size: cover;
+	min-height: 730px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#Home img{
+	max-height: 300px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 30px;
+	padding: 15px;
+}
+
+#Home p{
+	text-align: center;
+}
+
+#Home .enlace{
+	margin:auto;
+	max-width: 6%;
+	font-size: 40px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	color: #002F6C;
+}
+
+#Home .enlace:hover{
+	background-color: rgba(0,47,108,0.7);
+	color: #FEDD00;
+}
+
+/*	Sobre Nosotros */
+#Sobre_Nosotros{
+	background-color: #002F6C;
+	color: #fff;
+	padding: 80px;
+}
+
+#Sobre_Nosotros h1{
+	font-size: 50px;
+	padding-top: 13px;
+}
+
+#ParrafosNosotros{
+	font-size: 18px;
+	border-left: solid 1px;
+}
+
+/*	Misión-Visión	*/
+#Mision .row{
+	max-width: 100.9%;
+}
+
+#Mision .col-md-6{
+	text-align: center;
+	padding: 0px;
+}
+
+#Mision h2{
+	font-size: 3.5rem;
+}
+
+#Mision p{
+	font-size: 1.3rem;
+}
+
+#Mision img{
+	max-width: 100%;
+    opacity: 0.5;
+}
+
+#Mision hr{
+	width: 30%;
+	border-top: 1px solid;
+}
+
+#Mision .mision-texto{
+	position: absolute;
+	margin-top: -350px;
+	padding-right: 70px;
+	padding-left: 70px;
+	font-weight:bold;
+}
+
+.mision, .vision {
+	background-size: cover;
+	opacity:.7;
+	min-height: 450px;
+}
+
+.mision{
+	background: url("../images/mision.jpg") center center;
+}
+
+.vision{
+	background: url("../images/vision.jpg") center center;
+}
+
+/*	Valores	*/
+#Valores{
+	text-align: center;
+	background-color: rgba(0,47,108, .3);
+	padding: 30px;
+}
+
+#Valores h2{
+	text-align:center;
+}
+
+#Valores hr{
+	border-top: 1px solid;
+	width: 20%;
+}
+
+#Valores .modal-header h5{
+	margin-top: 50px;
+}
+
+#Valores .modal-header .fa-stack-2x{
+	font-size: 3em;
+	color: rgba(0,47,108, 1);
+}
+
+#Valores .modal-header .fa-stack-1x{
+	font-size: 2em;
+}
+
+
+/*		Modal		*/
+.modal-title{
+	margin: auto;
+}
+
+.modal-header .close{
+	position: absolute;
+	margin-left: 420px;
+}
+
+.modal-dialog{
+	margin-top: 270px;
+    margin-bottom: 260px
+}
+
+.btn-modal{
+	border: 0;
+	background-color: transparent;
+	border-radius: 60px;
+}
+
+
+.btn-modal p{
+	padding: 25px;
+	font-size: 50px;
+	margin: 0;
+	color: rgba(0,47,108, 1);
+	margin-bottom: 80px;
+}
+
+.btn-modal p:hover{
+	color: rgba(0,47,108, 0.6);
+	/*
+	font-size: 60px;
+	margin-bottom: 100px;
+	*/
+}
+
+.btn-modal .fa-stack-1x{
+	padding-top: 13px;
+}
+
+/*	Servicios */
+
+.servicios{
+	background-color: rgba(125,125,125,0.2);
+}
+
+#Servicios{
+	padding: 30px;
+}
+
+#Servicios .row{
+	margin-bottom: 50px;
+	text-align:center;
+}
+
+#Servicios .btn-modal{
+}
+
+#Servicios img{
+	max-width: 100%;
+	border-radius: 50px;
+	margin-bottom: -40px
+}
+
+#Servicios .col-md-6 .btn-efecto{
+	margin-left: 95px;
+	position: relative;
+}
+
+#Servicios .col-md-6 p{
+	font-size:13px;
+}
+
+#Servicios .modal-content{
+	text-align: left;
+}
+
+#legal, #contable, #humano{
+	background-size: cover;
+	max-width: 30%;
+	border-radius: 50px;
+	min-height:220px;
+}
+
+.btn-legal, .btn-contable, .btn-humano, .btn-productividad, .btn-seguridad{
+	max-width: 80%;
+	margin-left: 30px;
+	margin-top: 60px;
+	background-color: rgba(0, 47, 108, 0.5);
+	border-radius: 30px;
+	padding-bottom: 50px;
+	padding-top: 5px;
+}
+
+#legal{
+	background: url("../images/legal.jpg") center center;
+	background-size: cover;
+}
+
+
+
+#contable{
+	background: url("../images/contable.jpg") center center;
+	background-size: cover;
+}
+
+#humano{
+	background: url("../images/humano.jpg") center center;
+	background-size: cover;
+}
+
+#productividad, #seguridad{
+	background-size: cover;
+	max-width: 30%;
+	border-radius: 50px;
+	min-height:220px;
+}
+
+#productividad{
+	background: url("../images/productividad.jpg") center center;
+	background-size: cover;
+	margin-left: 180px;
+}
+
+.btn-productividad{
+	max-width: 80%;
+	margin-left: 30px;
+	margin-top: 60px;
+	background-color: rgba(0, 47, 108, 0.5);
+	border-radius: 30px;
+	padding-bottom: 50px;
+	padding-top: 5px;
+}
+
+#seguridad{
+	background: url("../images/seguridad.jpg") center center;
+	background-size: cover;
+	margin-right: 180px;
+}
+
+
+
+.btn-efecto{
+	background-color: rgba(255, 255, 255, .7);
+	position: absolute;
+	border-radius: 30px;
+	width: 55%;
+	margin-left: 50px;
+}
+
+.btn-efecto p{
+	font-size: 16px;
+	font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+/*		Footer		*/
+footer{
+	background-color: rgba(0, 47, 108, 1);
+	padding: 35px;
+	padding-bottom: 5px;
+	color:#fff;
+	text-align: center;
+}
+
+footer .contact{
+	font-size: 25px;
+}
+
+footer i{
+	margin-right: 10px;
+}
+
+footer hr{
+	border-top: 1px solid #fff;
+}
+
+/*		Global		*/
+html{
+	/*scroll-behavior: smooth; */
+}

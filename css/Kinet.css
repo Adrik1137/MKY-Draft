@@ -1,0 +1,333 @@
+/*General*/
+.kinet-navbar {
+  background-color: #1F1E21;
+
+}
+
+.navbar-brand{
+  max-width: 5%;
+}
+
+.navbar-brand img{
+  max-width: 100%;
+}
+
+.font-awesome-icon a{
+  color: #fff;
+  padding: 0.5rem;
+}
+
+/* home */
+#home {
+  background-color: #000000;
+  margin-bottom: 0;
+}
+
+#home img{
+  max-width: 100%;
+}
+
+#home p, h1{
+  color: antiquewhite;
+}
+
+/* Slogan */
+#slogan h1{
+  color:#D7D71A;
+  text-align: center;
+  text-transform: uppercase;
+  
+  font-size: 4rem;
+}
+
+/* About */
+#about{
+  background-color: #D7D71A;
+  padding: 1rem;
+  margin: 0;
+}
+
+#about .container{
+  color:antiquewhite;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#about .col{
+  background-color: #000000;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+#about h2{
+  color: #D7D71A;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+#about p{
+  font-size: 0.9rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+#about img{
+  max-width: 100%;
+}
+
+/* Servicios */
+#servicios{
+  background-color: #000000;
+  color:antiquewhite;
+  padding: 2rem;
+}
+
+#servicios .col-md-4{
+  border: solid 1px white;
+  padding: 0;
+  max-width: 32%;
+}
+
+.marg-1{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#servicios h2, p, hr, .btn-servicios{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#servicios a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+#servicios img{
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+#servicios img:hover{
+  opacity: 70%;
+}
+
+#mkt{
+  background-image: url("../images/Marketing.png");
+}
+
+#brand{
+  background-image: url("../images/Branding.jpg");
+}
+
+#prod{
+  background-image: url("../images/Producción.jpg");
+}
+
+#servicios hr{
+  border: 1px solid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.btn-servicios{
+  background-color: #C8D023;
+  color: #000000;
+}
+
+.btn-servicios:hover{
+  background-color: #9F9F10;
+  color: #ddd;
+}
+
+/* Dante */
+#dante{
+  background-color: #D7D71A;
+  margin: 0;
+  color: #fff;
+  padding-top: 2rem;
+}
+
+#dante img{
+  max-width: 100%;
+  max-height: 90%;
+}
+
+#dante .puesto{
+  padding-top: 5rem;
+}
+
+#dante .puesto p {
+  padding-left: 0;
+}
+
+/* Reel */
+#reel {
+  background-color: #D7D71A;
+}
+
+#reel .container-fluid{
+  padding: 0;
+  background-color: #000;
+}
+
+#reel h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3rem;
+}
+
+/* Programas */
+#programas{
+  background-color: #000;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#programas .taggbox-container{
+  margin:auto;
+  color: white;
+}
+
+#programas .taggbox-container button{
+  border: 1px solid;
+}
+
+#programas .row{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+#programas .col-4{
+  border: 1px solid #1f1f1f;
+  max-width: 30%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* Dirección */
+#direccion {
+  background-color: #D7D71A;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+#direccion h2{
+  padding: 1rem;
+  text-transform: uppercase;
+  color:#C8D023;
+  font-size: 2.5rem;
+}
+
+#direccion .row{
+  padding: 0;
+}
+
+#contacto {
+  background-color: #000;
+  color: #fff;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#mapa {
+  padding: 0;
+}
+
+/* footer */
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+footer h2{
+  text-transform: uppercase;
+}
+
+footer h2, h3{
+font-size: 1.5rem;
+}
+
+footer p{
+  margin-bottom: 0;
+  margin-top: 0.8rem;
+
+  font-size: 0.8rem;
+}
+
+/**************** Cotizacion ************/
+#cotizacion{
+  background-color: #C8D023;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.form-kinet{
+  display: block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #D8D836;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 0.5rem;
+  width:100%; 
+}
+
+#form-contacto{
+  margin:auto;
+  max-width: 50%;
+}
+
+.form-servicios{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#mc_embed_signup{
+  max-width: 50%;
+}
+
+#mc_embed_signup .btn{
+  margin-top: 1rem;
+}
+
+.indicates-required{
+  margin-bottom: 1rem;
+}
+
+
+/*jumbotron.css*/
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+/*body {
+    padding-top: 3.5rem;
+  }*/
